@@ -21,7 +21,7 @@ class App extends React.Component {
         <form onSubmit={this.onSubmit}>
           <div className="form-row">
             <div className="form-group col-md-10">
-              <input type="number" className="form-control" id="numberOfRequests" placeholder="Number Of Requests" min="1" ref={el => (this.input = el)} />
+              <input type="number" className="form-control" id="numberOfRequests" placeholder="Number Of Requests" min="4" ref={el => (this.input = el)} />
             </div>
             <div className="form-group col-md-2">
               <button className="btn btn-danger">Simulate</button>
