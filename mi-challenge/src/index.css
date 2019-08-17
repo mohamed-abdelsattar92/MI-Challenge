@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%;
+  overflow: auto;
+  background-color: #333;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  background-image: url("./wallpaper.jpg");
+  background-repeat: repeat;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.cover {
+  padding: 0 1.5rem;
+}
+
+.map {
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.booking-bins-container {
+  border: 1px solid #aaaaaa;
+  box-shadow: 4px 6px 8px black;
+  margin: 20px;
+  color: black;
+}
+
+.map-container {
+  border: 1px solid #aaaaaa;
+  box-shadow: 4px 6px 8px black;
+  margin: 20px;
+}
+
+.map-title {
+  padding: 10px;
+  color: black;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.chart-title {
+  padding: 10px;
+  border-bottom: 1px solid #aaaaaa;
+}
